@@ -2,7 +2,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt cr6606 Hnat
+name: OpenWrt jcg Hnat
 
 on:
   repository_dispatch:
@@ -17,10 +17,10 @@ on:
 
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: q20-pbboot
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default
-  CONFIG_FILE: ramips-hnat/.config.cr6606.hnat
+  CONFIG_FILE: ramips-hnat/.config.jcg.hnat
   DIY_P1_SH: ramips-hnat/diy-part1.sh
   DIY_P2_SH: ramips-hnat/diy-part2.sh
   UPLOAD_BIN_DIR: false
