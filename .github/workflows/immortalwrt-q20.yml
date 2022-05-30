@@ -2,7 +2,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt jcg Hnat
+name: OpenWrt jcg
 
 on:
   repository_dispatch:
@@ -16,8 +16,8 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/padavanonly/immortalwrt
-  REPO_BRANCH: q20-pbboot
+  REPO_URL: https://github.com/keben12345/immortalwrt
+  REPO_BRANCH: openwrt-21.02
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default
   CONFIG_FILE: ramips-hnat/.config.jcg.hnat
