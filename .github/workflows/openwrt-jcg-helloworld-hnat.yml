@@ -2,7 +2,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt jcg Hnat
+name: OpenWrt jcg-helloworld Hnat
 
 on:
   repository_dispatch:
