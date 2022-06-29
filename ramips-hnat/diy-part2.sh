@@ -31,6 +31,8 @@ rm -rf package/helloworld
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 rm -rf package/passwall
 git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
+rm -rf package/bypass
+git clone https://github.com/kiddin9/openwrt-bypass.git package/bypass
 
 cd package/emortal/
 rm -rf lua-maxminddb
