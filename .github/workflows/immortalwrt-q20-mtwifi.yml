@@ -2,7 +2,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt jcg-bypass Hnat
+name: OpenWrt jcg-bypass-mtwifi Hnat
 
 on:
   repository_dispatch:
