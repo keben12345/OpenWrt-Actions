@@ -17,7 +17,7 @@ on:
 
 env:
   REPO_URL: https://github.com/keben12345/immortalwrt-padavanony-q20
-  REPO_BRANCH: master
+  REPO_BRANCH: padavan-q20-pbboot
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default
   CONFIG_FILE: ramips-hnat/.config.jcg-bypass.hnat
