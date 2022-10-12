@@ -16,8 +16,8 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/keben12345/immortalwrt-padavanony-q20
-  REPO_BRANCH: padavan-q20-pbboot
+  REPO_URL: https://github.com/keben12345/padavan-q20
+  REPO_BRANCH: q20-pbboot
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default
   CONFIG_FILE: ramips-hnat/.config.jcg-bypass.hnat
