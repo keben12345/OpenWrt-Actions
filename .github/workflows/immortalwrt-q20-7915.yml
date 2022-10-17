@@ -17,10 +17,10 @@ on:
 
 env:
   REPO_URL: https://github.com/keben12345/padavan-q20
-  REPO_BRANCH: master
+  REPO_BRANCH: mt7915_mtwifi
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default
-  CONFIG_FILE: ramips-hnat/.config.immortalwrt.hnat
+  CONFIG_FILE: ramips-hnat/.config.mt7915.hnat
   DIY_P1_SH: ramips-hnat/diy-part1.sh
   DIY_P2_SH: ramips-hnat/diy-part2.sh
   UPLOAD_BIN_DIR: false
