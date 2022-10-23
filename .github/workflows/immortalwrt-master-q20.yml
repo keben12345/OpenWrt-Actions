@@ -16,11 +16,11 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/keben12345/immortalwrt
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/keben12345/padavan-q20
+  REPO_BRANCH: q20-pbboot
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default
-  CONFIG_FILE: ramips/.config.immortalwrt
+  CONFIG_FILE: ramips/.config.immortalwrt.hnat
   DIY_P1_SH: ramips-hnat/diy-part1.sh
   DIY_P2_SH: ramips-hnat/diy-part2.sh
   UPLOAD_BIN_DIR: false
