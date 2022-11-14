@@ -17,7 +17,7 @@ on:
 
 env:
   REPO_URL: https://github.com/keben12345/padavan-q20
-  REPO_BRANCH: mt7915_mtwifi
+  REPO_BRANCH: master
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default
   CONFIG_FILE: ramips-hnat/.config.ac2100.hnat
