@@ -31,14 +31,14 @@ rm -rf package/helloworld
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # rm -rf package/passwall
 # git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
-rm -rf package/bypass
-git clone https://github.com/kiddin9/openwrt-bypass.git package/bypass
+#rm -rf package/bypass
+#git clone https://github.com/kiddin9/openwrt-bypass.git package/bypass
 
-#cd package/emortal/
-#rm -rf lua-maxminddb
-#git clone https://github.com/jerrykuku/lua-maxminddb.git
-# rm -rf luci-app-vssr
-# git clone https://github.com/jerrykuku/luci-app-vssr.git
+cd package/emortal/
+rm -rf lua-maxminddb
+git clone https://github.com/jerrykuku/lua-maxminddb.git
+rm -rf luci-app-vssr
+git clone https://github.com/jerrykuku/luci-app-vssr.git
 #rm -rf luci-theme-argon  
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 # rm -rf luci-theme-neobird
