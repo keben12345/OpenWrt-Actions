@@ -2,7 +2,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt jcg-bypass-1100mtwifi Hnat
+name: OpenWrt 360t7 Hnat
 
 on:
   repository_dispatch:
@@ -16,7 +16,7 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/keben12345/immortalwrtARM
   REPO_BRANCH: mt7981
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf.default
