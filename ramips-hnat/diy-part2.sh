@@ -29,10 +29,10 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=65535' package
 # git clone https://github.com/small-5/luci-app-adblock-plus package/adblock-plus
 # rm -rf package/helloworld
 #git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
-rm -rf package/passwall
-git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
-rm -rf package/bypass
-git clone https://github.com/kiddin9/openwrt-bypass.git package/bypass
+#rm -rf package/passwall
+#git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
+#rm -rf package/bypass
+#git clone https://github.com/kiddin9/openwrt-bypass.git package/bypass
 
 #cd package/emortal/
 #rm -rf lua-maxminddb
