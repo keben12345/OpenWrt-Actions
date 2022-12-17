@@ -19,7 +19,7 @@ env:
   REPO_URL: https://github.com/padavanonly/immortalwrtARM
   REPO_BRANCH: mt7981
   FILES: ramips-hnat/files
-  FEEDS_CONF: ramips-hnat/feeds.conf.default
+  FEEDS_CONF: ramips-hnat/feeds.conf-1.default
   CONFIG_FILE: ramips-hnat/.config.360t7.hnat
   DIY_P1_SH: ramips-hnat/diy-part1.sh
   DIY_P2_SH: ramips-hnat/diy-part2.sh
