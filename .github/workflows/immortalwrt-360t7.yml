@@ -16,7 +16,7 @@ on:
 #    - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/keben12345/immortalwrtARM
+  REPO_URL: https://github.com/padavanonly/immortalwrtARM
   REPO_BRANCH: mt7981
   FILES: ramips-hnat/files
   FEEDS_CONF: ramips-hnat/feeds.conf-1.default
